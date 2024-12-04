@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letter to Fisch</title>
+	<link rel="icon" href="assets/fisch.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 2;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffffff;
+            overflow: hidden;
+			filter: brightness(100%);
+        }
+		
+		.background-wrapper {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #ffffff; /* Pure white background */
+            filter: brightness(100%); /* Reduce brightness */
+            z-index: -1; /* Make sure it's behind other elements */
+		}
+
+        .message-container {
+            text-align: center;
+            max-width: 800px;
+            height: 80vh; /* Limit the height for scrolling */
+            overflow-y: auto; /* Allow scrolling */
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .letter {
+            opacity: 0;
+            transition: opacity 1s ease-in;
+            display: none;
+        }
+
+        .letter p {
+            text-align: left; /* Aligns the text to the left */
+            margin-bottom: 20px;
+        }
+
+        #open-button {
+            padding: 15px 30px;
+            font-size: 24px;
+            background-color: #000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: opacity 1s ease-out;
+        }
+
+        #open-button:hover {
+            background-color: #333;
+        }
+
+        .sincerely {
+            text-align: left;
+            margin-top: 30px;
+        }
+
+        .ps {
+            font-size: 0.8em;
+            font-style: italic;
+            margin-top: 20px;
+        }
+		
+		.hidden-gif {
+            display: none; /* Initially hide the gif */
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            max-width: 250px; /* Adjust size of the gif */
+            opacity: 0; /* Start with opacity 0 for smooth fade-in */
+            transition: opacity 2s ease-in; /* Smooth fade-in effect */
+        }
+    </style>
+</head>
+<body>
+    <div class="background-wrapper"></div>
+
+    <audio id="background-music" muted loop>
+        <source src="assets/background-music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="message-container">
+        <!-- Button to open the letter -->
+        <button id="open-button">Xin mở tôi:)))</button>
+
+    <div class="letter">
+        <p style="font-weight: bold;">Dear Fisch,</p>
+
+        <p>I hope you’ve been doing okay, and I hope nothing bad happened to you lately. I realized it’s been a while since we last talked, and I just wanted to check in. I’ve missed our conversations and thought writing a letter might be the best way to reconnect. Remember the time you wrote me a letter during class? Well, now I wanted to do the same, but not on paper—and not in German. I mean, I could write it on paper, but I can’t really send it to you personally anyway, so this will do.</p>
+
+        <p>I just wanted to express everything on my mind in words through this letter. Honestly, I find it hard to talk to you directly because of my extreme shyness. You might know me as someone who yaps a lot, but deep down, I’m still really shy. I also think there’s something special and sincere about writing letters, so here I am. Maybe, I also like this way because I can yap a bit more. I hope you can read all of this when you have time because it might be too long. If not, I completely understand, but I’ll wait.</p>
+
+        <p>It feels like it’s been a while since we last played together. Maybe I’m the only one who noticed it tho. I’ve also felt like you’ve been a bit cold towards me when I try to call out to you, did you secretly replace yourself with a robot Fisch who’s more serious? I'm just kidding, tho. I’m just overthinking things again—it’s something I tend to do. I just figured maybe you’re stressed or just in a bad mood, but I guess I just miss how things used to be.</p>
+
+        <p>I remember how you used to greet me with your cute voice, saying, “Hello, Azzy” or even just a simple “azzy béo” which I’m not cause u are béor than me. All of your hellos, either coming from you, Moli, Salz or Nasa always made me feel welcomed—it really made me happy, and I guess I got used to it. I know people don’t always have to say hello, especially if they’re having a bad day. Maybe it’s just me noticing small changes because I valued those little moments so much. Please don’t worry about it, though—it’s just my overthinking getting the better of me again.</p>
+
+        <p>Fisch, I want you to know that I really cherish the friendship I have with you and Moli, also I wouldn’t really forget about Salz, we’re actually pretty close too—she’s my informant after all. Even tho we all haven’t really known each other for a long time. It’s something really important to me, and I don’t ever want to lose it. I’m writing this to you specifically, not Moli or Salz, because I feel like you and I still have moments of awkwardness or shyness. I don’t want you to feel shy or uncomfortable around me—I just want you to see you happy.</p>
+
+        <p>Looking back, I really enjoyed the time we all played together, it was hella fun. Those moments will always be on my memories, like when we all played DITB a lot of times, where we even have the same wins from time to time. And all of those times in Evade, where I am a pro at playing it. I’ll never forget how much we laughed at catalog. And when we started playing Fisch & Blade Ball and now I'm pretty much addicted to Fisch & you're addicted to Blade Ball. Those moments were really nice to have. Lastly, that time I finally finished Pressure with you, finishing it at last was so much fun—you were so great and finishing the game with you made it 10x better. Sorry for being too sentimental.</p>
+
+        <p>As for now, I just wanted to focus more on my dreams, aspirations, and goals this next year—improve myshelf(yea, I copied you coz it’s cute & I’m a copycat). I know it’s going to be a challenging year for me & for you too, but I can’t really grow if I’m always in my comfort zone—I’ve learned that the hard way. I really wanna aim high next year, goals that are quite ambitious but still achievable, I just wanna be somewhat successful in my field, so I can feel proud of myshelf and hopefully make everyone around me proud too.</p>
+
+        <p>And maybe someday, when I’m kinda successful we could share some great food together—whether it’s something you’ve made or something I’ve prepared. I think it would be so much fun to taste and rate each other’s dishes. Although, you would probably win against me—I haven’t really been cooking for a while. Also, I’d love to try different dishes I’ve never had before, and maybe you, Moli, Salz, and Nasa could try some of the dishes I know how to make.</p>
+
+        <p>Hopefully, we’ll get the chance to tour Vietnam together for some incredible food, or maybe even go camping someday. I can already picture it—eating grilled food prepared by you. That would be amazing. I hope it’s not too weird that I’m thinking about all of this so much. I guess I’m just really looking forward to the day I can try the food you make, Fisch. That’s all.</p>
+
+        <p>I also wanted to take a moment to say something to you, Fisch. I know life hasn’t been easy for you, especially with everything you’ve had to deal with, but I want you to know how much I admire you a lot—it’s not easy living a life like yours. If only I can lighten the burden, you have right now, I would’ve done it without a single thought. Even when you say you can’t motivate yourshelf, you somehow manage to inspire me. The way you keep going, even when things are tough, is something I really look up to. I really mean that Fisch, I really do.</p>
+		
+		<p>I also still remember when you told me that you see yourself as a 'big red flag' or even a 'black flag,' which I thought was funny. While I don't really view those traits as negative, I think they’re part of what makes you who you are. Everyone has things about them that others might not always like, but that doesn’t take away from the value of the person you are.</p>
+
+        <p>I won’t change my mind about you, doesn’t matter how much of a red flag you become or what other people says about you, because I think that the traits you have, you’re stuck with it. What I think about you as a person—isn’t gonna change. I hope one day you’ll see yourself as I do—someone who’s like a light, someone who can shine even in the darkest times. Sorry if it’s corny. I mean, if it’s you, you can definitely reach all your dreams on your own.</p>		
+
+        <p>And lastly, please remember to always take care of yourself—your health, your smile, and your safety.</p>
+		
+		<p>Don't disappear, don't change Châu.</p>
+
+        <div class="sincerely">
+            <p style="font-weight: bold;">Sincerely,</p>
+            <p style="font-weight: bold;">Azzy</p>
+        </div>
+
+        <div class="ps">
+            <p>*P.S. I miss those food photos you used to send me fisch béo. And always be careful on ur driving fisch or I'll cook you :))))</p>
+        </div>
+    </div>
+	
+	<img src="assets/undertale.gif" alt="GIF" id="myGif" class="hidden-gif">
+	
+	<script>
+    const openButton = document.getElementById("open-button");
+    const letter = document.querySelector(".letter");
+    const audioPlayer = document.getElementById("background-music");
+    const myGif = document.getElementById("myGif"); // Get the gif element
+
+    openButton.addEventListener("click", function() {
+        // Fade out the button
+        openButton.style.opacity = 0;
+
+        // Play the audio and unmute it
+        audioPlayer.volume = 0.1; // Set volume to 20%
+        audioPlayer.muted = false;
+        audioPlayer.play().catch(error => console.log("Error playing audio:", error));
+
+        // Fade in the letter content
+        letter.style.display = "block"; // Make the letter visible
+        setTimeout(() => {
+            letter.style.opacity = 1; // Fade the letter in
+        }, 1000); // Delay to let the button fade out first
+
+        // Show and fade in the gif
+        myGif.style.display = "block"; // Display the gif
+        setTimeout(() => {
+            myGif.style.opacity = 1; // Fade the gif in
+        }, 1500); // Delay the gif fade-in a little after the button click
+    });
+</script>
+
+</body>
+</html>
